@@ -36,7 +36,7 @@ const showCase = document.createElement("div");
 showCase.setAttribute("id", "showcase");
 showCase.style.backgroundColor = "#fff";
 showCase.innerHTML =
-  "<h3 style='text-align:center; margin-top:25px' >Select Color</h3>";
+  "<h3 style='text-align:center; margin-top:25px' >Select a Color</h3>";
 
 mainPart.insertBefore(showCase, mainPart.firstChild);
 
