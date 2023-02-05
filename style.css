@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  border: 2px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  height: 60vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(241, 237, 230);
+  border-radius: 5px;
+}
+
+#color-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-button {
+  border: none;
+  width: 100%;
+  height: 45px;
+}
+
+.single-button:hover {
+  cursor: pointer;
+}
+
+#showcase {
+  border-radius: 8px;
+  margin-top: 35px;
+  width: 60%;
+  height: 40vh;
+}
